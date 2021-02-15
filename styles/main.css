@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@400;600&display=swap');
 
+:root {
+  --body-bg: #f0f0f5;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +15,7 @@ html {
 }
 
 body {
-  background: #f0f0f5;
+  background: var(--body-bg);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -20,7 +24,6 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--title-color);
   font-family: 'Poppins', sans-serif;
 }
 
